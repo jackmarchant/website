@@ -4,7 +4,9 @@ import classnames from 'classnames';
 import './style.css';
 
 export default class About extends Component {
-  // static propTypes = {}
+  static propTypes = {
+    className: PropTypes.string
+  }
   // static defaultProps = {}
   // state = {}
 
