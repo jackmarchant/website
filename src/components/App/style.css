@@ -1,6 +1,10 @@
 .App {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
   text-align: center;
+}
+
+.c-link {
+  color: #7d7c55;
 }
 
 .App-header {
@@ -26,7 +30,11 @@
   width: 90%;
   max-width: 700px;
   margin: auto;
-  font-size: 16px;
+  font-size: 24px;
+}
+
+.body-copy {
+  margin-bottom: 10px;
 }
 
 .c-photo-fixed {
@@ -38,14 +46,22 @@
 }
 
 .c-photo {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
+}
+
+.c-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.c-list li {
+  list-style-type: none;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  .App-main {
-    font-size: 26px;
-  }
   .App-header {
     margin-bottom: 48px;
   }

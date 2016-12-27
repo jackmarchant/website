@@ -11,8 +11,19 @@ class App extends Component {
           <h3 className="subheading">Web Developer</h3>
         </div>
         <div className="App-main">
-          <p>I'm a Web Developer with a passion for creating amazing experiences on the web. I have experience with PHP, Node, React, front and back end programming. You can follow me on Twitter (<a target="_blank" href="http://twitter.com/jackmarchant10">@jackmarchant10</a>) and Medium (<a target="_blank" href="http://medium.com/@jackmarchant">@jackmarchant</a>) or check out my code at GitHub.</p>
-          <p></p>
+          <p className="body-copy">I'm a Web Developer with a passion for creating amazing experiences on the web. I have experience with PHP, Node, React, front and back end programming.</p>
+          <p className="body-copy">Follow me on:</p>
+          <ul className="c-list">
+            <li>
+              <a className="c-link" target="_blank" title="Jack Marchant Twitter" href="http://twitter.com/jackmarchant10">Twitter</a>
+            </li>
+            <li>
+              <a className="c-link" target="_blank" title="Jack Marchant Medium" href="http://medium.com/@jackmarchant">Medium</a>
+            </li>
+            <li>
+              <a className="c-link" target="_blank" title="Jack Marchant GitHub" href="http://github.com/jackmarchant">GitHub</a>
+            </li>
+          </ul>
           <img src={face} className="c-photo" alt="Jack Marchant"/>
         </div>
       </div>
