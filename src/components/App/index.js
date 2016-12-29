@@ -8,11 +8,13 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <h1 className="heading">Jack Marchant</h1>
-          <h3 className="subheading">Web Developer</h3>
+          <h3 className="subheading">Full-stack engineer</h3>
         </div>
         <div className="App-main">
-          <p className="body-copy">I'm a Web Developer with a passion for creating amazing experiences on the web. I have experience with PHP, Node, React, front and back end programming.</p>
-          <p className="body-copy">Follow me on:</p>
+          <p className="body-copy">I'm a full-stack web engineer.</p>
+          <p className="body-copy">I'm interested in JavaScript, however I do have experience in a number of other langages.</p>
+          <p className="body-copy">When I'm not coding, I enjoying reading and writing software engineering articles.</p>
+          <p className="body-copy">Pick your pipe:</p>
           <ul className="c-list">
             <li>
               <a className="c-link" target="_blank" title="Jack Marchant Twitter" href="http://twitter.com/jackmarchant10">Twitter</a>
@@ -25,6 +27,7 @@ class App extends Component {
             </li>
           </ul>
           <img src={face} className="c-photo" alt="Jack Marchant"/>
+          <p>(That's me ^ )</p>
         </div>
       </div>
     );
