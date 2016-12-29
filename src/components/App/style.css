@@ -61,6 +61,11 @@
   margin-bottom: 10px;
 }
 
+.c-list--inline li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .App-header {
     margin-bottom: 48px;
