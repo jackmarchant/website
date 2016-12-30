@@ -1,23 +1,16 @@
-import React, { PropTypes, Component } from 'react';
-import classnames from 'classnames';
+import React from 'react';
+import Main from '../Main';
+import {Link} from 'react-router';
 
-import './style.css';
-
-export default class NotFound extends Component {
-  static propTypes = {
-    className: PropTypes.string
-  }
-  // static defaultProps = {}
-  // state = {}
-
-  render() {
-    const { className, ...props } = this.props;
-    return (
-      <div className={classnames('NotFound', className)} {...props}>
-        <h1>
-          404 <small>Not Found :(</small>
-        </h1>
+const NotFound = () => {
+  return (
+    <Main content={
+      <div>
+        <p className="body-copy">Sorry, this page doesn't exist.</p>
+        <p className="body-copy">I have another one you might like? <Link to="/" className="c-link">See page</Link></p>
       </div>
-    );
-  }
-}
+    } />
+  );
+};
+
+export default NotFound;
