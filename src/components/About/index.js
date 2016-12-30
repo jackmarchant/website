@@ -1,23 +1,13 @@
-import React, { PropTypes, Component } from 'react';
-import classnames from 'classnames';
+import React from 'react';
+import {Link} from 'react-router';
+import Main from '../Main';
 
-import './style.css';
+const About = () => {
+  return (
+    <Main content={
+      <p className="body-copy"><Link to="/" className="c-link">Read about Jack Marchant</Link></p>
+    } />
+  );
+};
 
-export default class About extends Component {
-  static propTypes = {
-    className: PropTypes.string
-  }
-  // static defaultProps = {}
-  // state = {}
-
-  render() {
-    const { className, ...props } = this.props;
-    return (
-      <div className={classnames('About', className)} {...props}>
-        <h1>
-          About
-        </h1>
-      </div>
-    );
-  }
-}
+export default About;
