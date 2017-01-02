@@ -1,5 +1,6 @@
 import React from 'react';
 import face from './jack.jpg';
+import Link from '../Link';
 
 export default () => {
   return (
@@ -9,13 +10,13 @@ export default () => {
       <p className="body-copy">Pick your pipe:</p>
       <ul className="c-list c-list--inline">
         <li>
-          <a className="c-link" target="_blank" title="Jack Marchant Twitter" href="http://twitter.com/jackmarchant10">Twitter</a>
+          <Link to="https://twitter.com/jackmarchant10" text="Twitter" external />
         </li>
         <li>
-          <a className="c-link" target="_blank" title="Jack Marchant Medium" href="http://medium.com/@jackmarchant">Medium</a>
+          <Link to="https://medium.com/@jackmarchant" text="Medium" external />
         </li>
         <li>
-          <a className="c-link" target="_blank" title="Jack Marchant GitHub" href="http://github.com/jackmarchant">GitHub</a>
+          <Link to="https://github.com/jackmarchant" text="GitHub" external />
         </li>
       </ul>
       <img src={face} className="c-photo" alt="Jack Marchant"/>

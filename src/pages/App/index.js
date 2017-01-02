@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
-import Main from '../Main';
-import Intro from '../Intro';
+import Main from '../../components/Main';
+import Intro from '../../components/Intro';
 
 const App = () => {
   return (
